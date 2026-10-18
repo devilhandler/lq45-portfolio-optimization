@@ -9,7 +9,7 @@ ETS **Konsep Kecerdasan Artifisial**
 - Rilo Zidane A. T - 5053251048
 
 **Pertanyaannya:** kalau mau membeli 5 saham dari LQ45 (masing-masing 20% modal), kombinasi
-mana yang paling bagus? Ada **850.668** kombinasi, jadi kita memakai algoritma local search dari kuliah
+mana yang paling bagus? Ada total **850.668** kombinasi, jadi kita coba pakai algoritma *local search*
 lalu membandingkannya:
 
 | Algoritma | Cara kerja singkat |
@@ -22,14 +22,14 @@ lalu membandingkannya:
 - **State:** 5 saham · **Tetangga:** tukar 1 saham (185 tetangga) · **Fungsi objektif:** Sharpe ratio
   = (return − bunga bank) ÷ risiko
 
-> ⚠️ Hasil proyek ini untuk keperluan kuliah, **bukan rekomendasi investasi**.
+> ⚠️ Hasil proyek ini **BUKAN rekomendasi investasi**.
 
 📓 [Notebook colab](notebook/demo.ipynb)
 
 ## Hasil
 
 - Portofolio terbaik (brute force): **ACES, ADRO, BRIS, JPFA, MAPA**, Sharpe ratio **1,82**.
-- Persentase dari 30 run yang menemukan portofolio terbaik:
+- Persentase dari 30 *run* yang menemukan portofolio terbaik:
 
 | Jatah evaluasi | Hill Climbing | Simulated Annealing | Genetic Algorithm |
 |---:|---:|---:|---:|
@@ -54,6 +54,8 @@ pip install -r requirements.txt
 python -m src.eksperimen     # semua percobaan (< 1 menit)
 python -m src.grafik         # semua grafik
 ```
+
+Atau bisa pakai Colab Notebook tersebut.
 
 Data harga: Yahoo Finance (sudah disesuaikan dividen & stock split). Daftar LQ45: pengumuman BEI periode
 Februari–April 2025.

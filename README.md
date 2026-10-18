@@ -1,8 +1,9 @@
 # Optimasi Portofolio Saham LQ45 dengan Local Search
 
-Proyek mata kuliah **Konsep Kecerdasan Artifisial (EK234201)**, Teknik Informatika ITS, Oktober 2026.
+ETS **Konsep Kecerdasan Artifisial**
+Hilmi Fauzi Adha Simamora - 5053251013
 
-**Pertanyaannya sederhana:** kalau mau membeli 5 saham dari LQ45 (masing-masing 20% modal), kombinasi
+**Pertanyaannya:** kalau mau membeli 5 saham dari LQ45 (masing-masing 20% modal), kombinasi
 mana yang paling bagus? Ada **850.668** kombinasi, jadi kita memakai algoritma local search dari kuliah
 lalu membandingkannya:
 
@@ -18,9 +19,7 @@ lalu membandingkannya:
 
 > ⚠️ Hasil proyek ini untuk keperluan kuliah, **bukan rekomendasi investasi**.
 
-📄 [Laporan (PDF)](laporan/Laporan_Optimasi_Portofolio_LQ45.pdf) ·
-📊 [Slide (PPTX)](slide/Presentasi_Optimasi_Portofolio_LQ45.pptx) ·
-📓 [Notebook demo](notebook/demo.ipynb)
+📓 [Notebook colab](notebook/demo.ipynb)
 
 ## Hasil
 
@@ -43,17 +42,6 @@ lalu membandingkannya:
 
 ![Hasil](results/grafik/g3_keberhasilan.png)
 
-## Isi repo
-
-```
-data/       harga harian 42 saham LQ45 + indeks LQ45, daftar saham & sektor
-src/        masalah.py (state, tetangga, Sharpe) · algoritma.py · eksperimen.py · grafik.py
-results/    hasil semua run (CSV) dan grafik
-notebook/   demo.ipynb
-laporan/    laporan.tex + PDF
-slide/      buat_slide.js + PPTX
-```
-
 ## Cara menjalankan
 
 ```bash
@@ -63,6 +51,4 @@ python -m src.grafik         # semua grafik
 ```
 
 Data harga: Yahoo Finance (sudah disesuaikan dividen & stock split). Daftar LQ45: pengumuman BEI periode
-Februari–April 2025. Data dipakai untuk tujuan pendidikan.
-
-Lisensi kode: MIT.
+Februari–April 2025.

@@ -1,0 +1,16 @@
+Brute force: ['ACES', 'ADRO', 'BRIS', 'JPFA', 'MAPA'] Sharpe 1.8190 (850,668 kombinasi, 0.52 detik)
+ budget           algoritma  berhasil_persen  sharpe_rata2  sharpe_terburuk  waktu_ms
+    300   Genetic Algorithm          30.0000        1.7342           1.4886   16.5701
+    300       Hill Climbing           0.0000        1.1984           0.7641    3.0738
+    300 Simulated Annealing          66.6667        1.8033           1.7087    9.5599
+    500   Genetic Algorithm          43.3333        1.7588           1.4991   26.4933
+    500       Hill Climbing           3.3333        1.5120           1.0946    4.9353
+    500 Simulated Annealing          83.3333        1.8115           1.7433   18.1286
+   1000   Genetic Algorithm          70.0000        1.8016           1.7038   48.7051
+   1000       Hill Climbing         100.0000        1.8190           1.8190   12.2511
+   1000 Simulated Annealing         100.0000        1.8190           1.8190   35.0741
+   2000   Genetic Algorithm          96.6667        1.8165           1.7433   97.9200
+   2000       Hill Climbing         100.0000        1.8190           1.8190   22.2332
+   2000 Simulated Annealing         100.0000        1.8190           1.8190   66.4529
+Lanskap: 100% pendakian berakhir di puncak global, 1 puncak berbeda
+Uji dunia nyata (nilai akhir dari 100): {'Portofolio terbaik (5 saham)': 82.0, 'Semua 42 saham (bobot sama)': 99.7, 'Indeks LQ45': 72.7}

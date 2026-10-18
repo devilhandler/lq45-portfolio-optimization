@@ -1,0 +1,66 @@
+{
+ "cara_cepat": {
+  "saham": [
+   "ACES",
+   "BRIS",
+   "ISAT",
+   "JPFA",
+   "MAPA"
+  ],
+  "return": 0.4262100187173905,
+  "volatilitas": 0.21606374766097677,
+  "sharpe": 1.7064871951398775,
+  "peringkat": 11
+ },
+ "n_saham": 42,
+ "k": 5,
+ "n_kombinasi": 850668,
+ "waktu_brute_force": 0.523925155000029,
+ "n_hari_latih": 473,
+ "terbaik": {
+  "saham": [
+   "ACES",
+   "ADRO",
+   "BRIS",
+   "JPFA",
+   "MAPA"
+  ],
+  "return": 0.42915275250033247,
+  "volatilitas": 0.20431653582646597,
+  "sharpe": 1.819004766290633
+ },
+ "peringkat_2": 1.7943842382474828,
+ "persen_kombinasi_positif": 43.97967244565447,
+ "median_semua": -0.07731080657197292,
+ "nama_terbaik": {
+  "ACES": "Aspirasi Hidup Indonesia Tbk.",
+  "ADRO": "Alamtri Resources Indonesia Tb",
+  "BRIS": "Bank Syariah Indonesia Tbk.",
+  "JPFA": "Japfa Comfeed Indonesia Tbk.",
+  "MAPA": "Map Aktif Adiperkasa Tbk."
+ },
+ "sektor_terbaik": {
+  "ACES": "Consumer Cyclicals",
+  "ADRO": "Energy",
+  "BRIS": "Financials",
+  "JPFA": "Consumer Non-Cyclicals",
+  "MAPA": "Consumer Cyclicals"
+ },
+ "lanskap": {
+  "persen_global": 100.0,
+  "puncak_berbeda": 1,
+  "langkah_rata2": 4.417
+ },
+ "uji_akhir": {
+  "Portofolio terbaik (5 saham)": 82.05,
+  "Semua 42 saham (bobot sama)": 99.69,
+  "Indeks LQ45": 72.72
+ },
+ "uji_per_saham": {
+  "ACES": -0.4132,
+  "ADRO": 0.3076,
+  "BRIS": -0.548,
+  "JPFA": 0.0957,
+  "MAPA": -0.3398
+ }
+}

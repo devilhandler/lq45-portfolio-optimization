@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+node_modules/
+laporan/*.aux
+laporan/*.log
+laporan/*.out
+laporan/*.toc
+laporan/laporan.pdf

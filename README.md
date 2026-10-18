@@ -1,7 +1,12 @@
 # Optimasi Portofolio Saham LQ45 dengan Local Search
 
 ETS **Konsep Kecerdasan Artifisial**
-Hilmi Fauzi Adha Simamora - 5053251013
+
+- Hilmi Fauzi Adha Simamora - 5053251013
+- Muhammad Hisyam N. - 5053251031
+- Farrel Aryasatya Raharjo - 5053251036
+- Dzakwan Ghonim F. M. - 5053251045
+- Rilo Zidane A. T - 5053251048
 
 **Pertanyaannya:** kalau mau membeli 5 saham dari LQ45 (masing-masing 20% modal), kombinasi
 mana yang paling bagus? Ada **850.668** kombinasi, jadi kita memakai algoritma local search dari kuliah

@@ -1,4 +1,4 @@
-# Optimasi Portofolio Saham LQ45 dengan Local Search
+# Optimasi Portofolio Saham LQ45 Periode Februari-April 2025 dengan Local Search
 
 ETS **Konsep Kecerdasan Artifisial**
 
@@ -8,7 +8,7 @@ ETS **Konsep Kecerdasan Artifisial**
 - Dzakwan Ghonim F. M. - 5053251045
 - Rilo Zidane A. T - 5053251048
 
-**Pertanyaannya:** kalau mau membeli 5 saham dari LQ45 (masing-masing 20% modal), kombinasi
+**Pertanyaannya:** kalau mau membeli 5 saham dari LQ45 periode februari-april 2025 (masing-masing 20% modal), kombinasi
 mana yang paling bagus? Ada total **850.668** kombinasi, jadi kita coba pakai algoritma *local search*
 lalu membandingkannya:
 
@@ -55,7 +55,7 @@ python -m src.eksperimen     # semua percobaan (< 1 menit)
 python -m src.grafik         # semua grafik
 ```
 
-Atau bisa pakai Colab Notebook tersebut.
+Atau bisa pakai Colab Notebook yang sudah dibuat.
 
 Data harga: Yahoo Finance (sudah disesuaikan dividen & stock split). Daftar LQ45: pengumuman BEI periode
-Februari–April 2025.
+Februari-April 2025.
